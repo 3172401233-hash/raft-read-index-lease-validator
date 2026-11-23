@@ -1,0 +1,12 @@
+{
+  "name": "raft-read-index-lease-validator",
+  "version": "1.0.0",
+  "description": "验证 Raft ReadIndex 线性一致读、租约有效性与成员变更边界（不实现网络层）",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
